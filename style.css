@@ -1,0 +1,308 @@
+/* font link */
+@import url("https://fonts.googleapis.com/css2?family=Belleza&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
+
+.goblin {
+  font-family: "Goblin One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bella {
+  font-family: "Belleza", sans-serif;
+  font-weight: 400;
+}
+
+.place_exp {
+  height: 400px !important;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+.detail_btn {
+  z-index: 10;
+  letter-spacing: 3px;
+  background-color: #0073c4;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 30px;
+  justify-content: space-around;
+  font-family: Mukta, sans-serif;
+  position: relative;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.overlay_cont {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #00a8f668;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+  border-radius: 8px;
+}
+
+.overlay_inner {
+  transform: translate(8%, 110%);
+}
+
+.inner2 {
+  transform: translate(8%, 384%);
+}
+
+.overlay_inner h3 {
+  color: #fff;
+  font-size: 20px;
+}
+.read_btn {
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  display: inline-block;
+  padding: 13px 33px;
+  background-color: #000;
+  border-radius: 30px;
+  margin-top: 18px;
+}
+
+.pos {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.w-webflow-badge,
+.more-templates {
+  display: none !important;
+}
+
+.w-webflow-badge {
+  display: important !important;
+  position: unset !important;
+  transform: scale(0) !important;
+  max-width: 0 !important;
+  max-height: 0 !important;
+  font-size: 0 !important;
+}
+.w-webflow-badge img {
+  display: none !important;
+  transform: scale(0) !important;
+  max-width: 0 !important;
+  max-height: 0 !important;
+  font-size: 0 !important;
+}
+
+.pos:hover .overlay_cont {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* most popular packages */
+.info_card {
+  padding: 10px 30px 40px;
+}
+.ds_hid {
+  display: none;
+}
+.tours-item-grid {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-flow: wrap;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  width: 100%;
+  max-width: 1720px;
+  display: grid;
+}
+
+@media screen and (max-width: 768px) {
+  .ds_b {
+    display: none;
+  }
+
+  .ds_hid {
+    display: block;
+  }
+}
+
+/* accomodation in tuvalu */
+/* .blog_sec {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 49% !important;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+} */
+
+.accom_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box_card {
+  height: 600px;
+  margin-bottom: 36px;
+  box-shadow: 0 35px 50px -30px #ddd;
+  border-radius: 8px;
+}
+
+.box_card {
+  height: 640px;
+  margin-bottom: 36px;
+  box-shadow: 6px 35px 50px -30px #ddd;
+  border-radius: 8px;
+  padding: 0 20px;
+  padding-top: 20px;
+  border: 1px solid #dddddd52;
+}
+.img_box {
+  border-radius: 8px;
+  width: 100%;
+  height: 280px;
+}
+
+a,
+h2,
+h3,
+h4,
+h6 {
+  font-family: "Belleza", sans-serif !important;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.para {
+  color: #fff;
+  font-size: 17px;
+  line-height: 33px;
+  text-align: center;
+  width: 800px;
+}
+.ttl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0371c5;
+  /* margin-bottom: 30%; */
+  /* margin-bottom: 5%; */
+
+  color: #efd911;
+  font-family: "Goblin One", serif !important;
+  font-size: 45px;
+  padding-top: 60px;
+}
+
+.hero-para {
+  margin-top: 40%;
+}
+
+.ft_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mbc {
+  margin-bottom: 24px;
+}
+
+.ban_ht {
+  position: relative;
+  background-image: linear-gradient(#0000007e, #0000007a),
+    url(./images/photos/taku.png);
+  background-size: cover;
+  background-position: center center;
+  height: 110vh;
+}
+
+@media screen and (max-width: 768px) {
+  .box_card {
+    height: 100%;
+  }
+  .ttl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0371c5;
+    /* margin-bottom: 30%; */
+    /* margin-bottom: 5%; */
+
+    color: #efd911;
+    font-family: "Goblin One", serif !important;
+    font-size: 25px;
+    padding-top: 60px;
+  }
+  .link-home-text {
+    text-align: left;
+    font-size: 14px;
+  }
+  .ban_ht {
+    position: relative;
+    background-image: linear-gradient(#0000007e, #0000007a),
+      url(./images/photos/taku.png);
+    background-size: cover;
+    background-position: center center;
+    height: 120vh;
+
+    .ttl {
+      padding-top: 90px;
+      margin-bottom: 40%;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .hero-para {
+      margin-top: -30%;
+    }
+
+    .col_h {
+      background-image: linear-gradient(
+        rgba(0, 0, 0, 0.35) 53%,
+        rgba(0, 0, 0, 0) 77%,
+        rgba(0, 0, 0, 0) 96%,
+        #fff
+      );
+      height: 120vh;
+      padding-bottom: 30px;
+    }
+    .ban_ht {
+      height: 129vh;
+      overflow: hidden;
+    }
+    .col_img {
+      height: 129vh;
+    }
+    .txt_center {
+      text-align: center;
+    }
+
+    .ft_grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: center;
+    }
+    .para {
+      color: #fff;
+      font-size: 17px;
+      line-height: 33px;
+      text-align: center;
+      width: 98%;
+      padding: 0 10px;
+    }
+
+    .hero-img {
+      margin-top: 92px;
+      max-width: 100%;
+      transform: scale(2.5);
+    }
+  }
+}
