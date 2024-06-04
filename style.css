@@ -303,6 +303,7 @@ h6 {
       /* padding-bottom: 53px; */
       transform: translate(10px, 4%);
       line-height: 29px;
+      text-align: center;
     }
     .ft_grid {
       display: grid;
