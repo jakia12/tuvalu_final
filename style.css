@@ -244,6 +244,14 @@ h6 {
     text-align: left;
     font-size: 14px;
   }
+  .para {
+    color: #fff;
+    font-size: 15px;
+    line-height: 33px;
+    text-align: justify;
+    width: 98%;
+    padding: 0 21px;
+  }
   .ban_ht {
     position: relative;
     background-image: linear-gradient(#0000007e, #0000007a),
@@ -289,14 +297,14 @@ h6 {
       align-items: center;
       justify-content: center;
     }
-    .para {
+    /* .para {
       color: #fff;
       font-size: 17px;
       line-height: 33px;
       text-align: center;
       width: 98%;
       padding: 0 10px;
-    }
+    } */
 
     .hero-img {
       margin-top: 92px;
