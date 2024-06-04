@@ -222,10 +222,22 @@ h6 {
   background-position: center center;
   height: 110vh;
 }
+.banner_ht {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+}
 
 @media screen and (max-width: 768px) {
   .box_card {
     height: 100%;
+  }
+  .banner_ht {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
   }
   .ttl {
     display: flex;
@@ -262,13 +274,9 @@ h6 {
 
     .ttl {
       padding-top: 90px;
-      margin-bottom: 40%;
+      margin-bottom: 78%;
       font-size: 30px;
       text-align: center;
-    }
-
-    .hero-para {
-      margin-top: -30%;
     }
 
     .col_h {
@@ -290,7 +298,11 @@ h6 {
     .txt_center {
       text-align: center;
     }
-
+    .hero-para {
+      /* margin-top: 7%; */
+      /* padding-bottom: 53px; */
+      transform: translate(10px, 4%);
+    }
     .ft_grid {
       display: grid;
       grid-template-columns: 1fr;
